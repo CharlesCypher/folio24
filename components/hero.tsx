@@ -11,7 +11,7 @@ export default function Hero() {
         <p className="text-popover mb-8">
           We design and build Framer websites for tech founders to gain trust, look big, talk clearly and compete smart
         </p>
-        <Button className="w-full text-base flex items-center gap-2 py-7  border-card rounded-full shadow-shadow hover:border">
+        <Button className="w-full text-base flex items-center gap-2 py-7 border-card rounded-full shadow-shadow hover:border">
           Let&apos;s Talk
           <span>
             <ArrowRight size={20} className="-rotate-45" />
