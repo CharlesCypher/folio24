@@ -6,7 +6,7 @@ export default function Contact() {
       <h3 className="text-primary text-xl font-semibold">
         <Link href={"/"}>hey@corizon.codes</Link>
       </h3>
-      <p className="text-card">Have questions? Drop a line</p>
+      <p className="text-card text-center">Have questions? Drop a line</p>
     </div>
   );
 }
