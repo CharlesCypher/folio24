@@ -25,4 +25,61 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    id: 2,
+    name: "Eat-Curious for Restuarant",
+    link: "/",
+    images: [
+      {
+        id: 1,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+      {
+        id: 2,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+      {
+        id: 3,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Proof Commerce Website",
+    link: "/",
+    images: [
+      {
+        id: 1,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+      {
+        id: 2,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+      {
+        id: 3,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+    ],
+  },
+  {
+    id: 4,
+    name: "Cagency Brand Website",
+    link: "/",
+    images: [
+      {
+        id: 1,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+      {
+        id: 2,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+      {
+        id: 3,
+        link: "https://images.unsplash.com/photo-1701743801469-57e71ae3da6c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+    ],
+  },
 ];
