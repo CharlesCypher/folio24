@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import About from "@/components/about";
 import Contact from "@/components/contact";
 import Faq from "@/components/faq";
@@ -9,7 +10,6 @@ import Hero from "@/components/hero";
 import Pricing from "@/components/pricing";
 import Tools from "@/components/tools";
 import Works from "@/components/works";
-import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
