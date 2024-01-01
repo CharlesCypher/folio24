@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="px-6">
+    <footer className="bg-gradient-to-t from-foreground from-20% to-background to-80% px-6 rounded-b-lg">
       <h2 className="relative text-foreground text-center -mt-4 pb-14">
-        <span className="relative bg-clip-text bg-textgrad text-7xl font-semibold">easy/fast</span>
-        <div className="absolute w-full h-14 bg-black left-0 -top-6 blur-xl z-10"></div>
+        <span className="relative bg-clip-text bg-textgrad text-[64px] font-semibold overflow-hidden">easy/fast</span>
+        <div className="absolute w-full h-14 bg-black left-0 -top-3.5 blur-xl z-10"></div>
       </h2>
       <div className="w-full border-b border-popover/30"></div>
       <div className="flex items-center justify-between py-12">
