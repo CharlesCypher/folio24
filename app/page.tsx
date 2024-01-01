@@ -1,6 +1,7 @@
 import About from "@/components/about";
 import Contact from "@/components/contact";
 import Faq from "@/components/faq";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Pricing from "@/components/pricing";
@@ -24,6 +25,7 @@ export default function Home() {
         </div>
       </div>
       <Faq />
+      <Footer />
     </div>
   );
 }
