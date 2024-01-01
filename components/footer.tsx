@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="px-6">
@@ -8,7 +10,11 @@ export default function Footer() {
       <div className="w-full border-b border-popover/30"></div>
       <div className="flex items-center justify-between py-12">
         <h4 className="text-base text-card/50">&copy;2024, Corizon Codes</h4>
-        <h3 className="text-xl text-card/80">Follow on X</h3>
+        <h3 className="text-base text-card/80">
+          <Link href={"https://twitter.com/coriz_coder"} target="_blank">
+            Follow on X
+          </Link>
+        </h3>
       </div>
     </footer>
   );

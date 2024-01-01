@@ -12,7 +12,7 @@ export default function Header() {
         </div>
         <ul>
           <li>
-            <Link href={"https://twitter.com/coriz_coder"} className="flex items-center gap-1 transition-colors hover:text-popover">
+            <Link href={"https://twitter.com/coriz_coder"} target="_blank" className="flex items-center gap-1 transition-colors hover:text-popover">
               <TwitterIcon size={18} />
               <span className="text-sm">c.codes</span>
             </Link>

@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Pricing from "@/components/pricing";
+import Tools from "@/components/tools";
 import Works from "@/components/works";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       </div>
       <About />
       <div className="bg-card px-6 py-7 flex flex-col gap-20 rounded-t-md">
+        <Tools />
         <Works />
       </div>
       <div className="bg-card px-1 pt-7 pb-1 flex flex-col gap-20 rounded-b-md">
