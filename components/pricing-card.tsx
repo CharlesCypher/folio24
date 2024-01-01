@@ -24,7 +24,7 @@ interface PricingCardProps {
 
 export const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
   return (
-    <Card className="rounded-none rounded-t-md last:rounded-t-none last:rounded-b-md">
+    <Card className="rounded-none rounded-t-md last:rounded-t-none last:rounded-b-md lg:rounded-r-none lg:first:rounded-l-md lg:last:rounded-l-none lg:last:rounded-r-md">
       <CardContent className="p-0">
         <CardHeader>
           <p className="text-primary text-lg">{pricing.name}</p>

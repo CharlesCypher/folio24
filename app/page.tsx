@@ -16,12 +16,12 @@ export default function Home() {
         <Hero />
       </div>
       <About />
-      <div className="bg-card px-6 py-7 lg:px-20 lg:py-16 flex flex-col gap-20 rounded-t-md">
+      <div className="bg-card px-6 py-7 lg:px-20 lg:py-16 flex flex-col gap-20 rounded-t-lg">
         <Tools />
         <Works />
       </div>
-      <div className="bg-card px-1 pt-7 lg:px-20 lg:py-16 pb-1 flex flex-col gap-20 rounded-b-md">
-        <div className="bg-foreground px-6 py-7 flex flex-col gap-20 rounded-md">
+      <div className="bg-card px-1 pt-7 lg:px-20 lg:py-16 pb-1 flex flex-col gap-20 rounded-b-lg">
+        <div className="bg-foreground px-6 py-7 flex flex-col gap-20 rounded-lg">
           <Pricing />
           <Contact />
         </div>

@@ -15,7 +15,13 @@ export function Slider() {
           <CarouselContent>
             {project.images.map((image) => (
               <CarouselItem key={image.id}>
-                <Image src={image.link} alt={project.name} width={365} height={265} className="w-full h-[265px] object-cover rounded-xl" />
+                <Image
+                  src={image.link}
+                  alt={project.name}
+                  width={365}
+                  height={265}
+                  className="w-full h-[265px] lg:h-[620px] object-cover rounded-xl"
+                />
               </CarouselItem>
             ))}
           </CarouselContent>
@@ -23,7 +29,7 @@ export function Slider() {
           <CarouselNext className="bg-none border-none" />
           <Link
             href={project.link}
-            className="bg-background/15 absolute top-2 right-2 p-4 flex items-center justify-center border border-card/70 rounded-full"
+            className="bg-background/45 absolute top-2 right-2 p-4 flex items-center justify-center border border-card/70 rounded-full"
           >
             <span>
               <LinkIcon size={18} />
@@ -33,7 +39,10 @@ export function Slider() {
       </div>
       <div className="p-5">
         <div className="flex items-center justify-between gap-4">
-          <h4>Rebank Website for Banking</h4>
+          <div className="flex flex-col">
+            <h4>Rebank Website for Banking</h4>
+            <p className="text-popover">Lorem ipsum dolor</p>
+          </div>
           <div className="">
             <Image
               src={project.images[0].link}

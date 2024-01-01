@@ -13,8 +13,8 @@ import {
 export default function Tools() {
   return (
     <section>
-      <h2 className="text-2xl font-semibold mb-6">I work with</h2>
-      <div className="flex flex-col gap-8 pt-6">
+      <h2 className="text-2xl lg:text-3xl font-semibold mb-6">I work with</h2>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-y-16 pt-6">
         <div className="flex items-center gap-2 md:gap-4">
           <div className="bg-foreground p-2.5 rounded-md">
             <BitcoinIcon size={20} className="text-card" />
@@ -25,7 +25,7 @@ export default function Tools() {
           <div className="bg-foreground p-2.5 rounded-md">
             <SigmaSquareIcon size={20} className="text-card" />
           </div>
-          <p className="text-lg">Saas</p>
+          <p className="text-lg">SaaS</p>
         </div>
         <div className="flex items-center gap-2 md:gap-4">
           <div className="bg-foreground p-2.5 rounded-md">

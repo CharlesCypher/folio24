@@ -6,9 +6,11 @@ export default function Pricing() {
     <section>
       <h2 className="flex items-center justify-center text-center text-card text-2xl font-semibold mb-4">Let it happen</h2>
       <p className="text-popover text-base text-center mb-8">We offer flat-price packages with no hidden fees</p>
-      {pricingCardData.map((pricingCard) => (
-        <PricingCard key={pricingCard.id} pricing={pricingCard} />
-      ))}
+      <div className="flex flex-col lg:flex-row">
+        {pricingCardData.map((pricingCard) => (
+          <PricingCard key={pricingCard.id} pricing={pricingCard} />
+        ))}
+      </div>
     </section>
   );
 }
