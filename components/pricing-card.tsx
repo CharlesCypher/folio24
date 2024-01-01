@@ -33,9 +33,9 @@ export const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
         </CardHeader>
         <Features pricing={pricing} />
         <CardFooter className="p-6">
-          <Button className="w-full py-6 flex items-center gap-3 border-card rounded-full shadow-shadow hover:border">
+          <Button className="w-full py-6 md:py-7 flex items-center gap-3 border-card rounded-full shadow-shadow hover:border">
             Book a Discovery Call
-            <span>
+            <span className="text-base md:text-lg">
               <CalendarIcon size={20} />
             </span>
           </Button>
