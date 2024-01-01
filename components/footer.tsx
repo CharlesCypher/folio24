@@ -9,7 +9,7 @@ export default function Footer() {
       </h2>
       <div className="w-full border-b border-popover/30"></div>
       <div className="flex items-center justify-between py-12">
-        <h4 className="text-base text-card/50">&copy;2024, Corizon Codes</h4>
+        <h4 className="text-base text-card/50">&copy;2024, CorizonCodes</h4>
         <h3 className="text-base text-card/80">
           <Link href={"https://twitter.com/coriz_coder"} target="_blank">
             Follow on X
