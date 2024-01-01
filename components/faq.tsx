@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export default function Faq() {
   return (
-    <section className="px-6 py-16">
+    <section className="px-6 py-16 lg:px-20 lg:py-16">
       <h2 className="text-2xl text-card font-semibold mb-1">Good to know</h2>
       <p className="text-popover text-base mb-10">Things worth consideration</p>
       <Accordion type="single" collapsible className="w-full">

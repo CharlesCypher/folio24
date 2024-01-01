@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-t from-foreground from-20% to-background to-80% px-6 rounded-b-lg">
+    <footer className="bg-gradient-to-t from-foreground from-20% to-background to-80% px-6 lg:px-20 rounded-b-lg">
       <h2 className="relative text-foreground text-center -mt-4 pb-14">
         <span className="relative bg-clip-text bg-textgrad text-[64px] font-semibold overflow-hidden">easy/fast</span>
         <div className="absolute w-full h-14 bg-black left-0 -top-2 blur-xl z-10"></div>

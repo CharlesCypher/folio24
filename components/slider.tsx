@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export function Slider() {
   return projects.map((project) => (
-    <Card key={project.id} className="bg-foreground text-card p-1.5 rounded-xl">
+    <Card key={project.id} className="w-full bg-foreground text-card p-1.5 rounded-xl">
       <div>
         <Carousel className="relative">
           <CarouselContent>
