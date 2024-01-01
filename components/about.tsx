@@ -48,7 +48,7 @@ export default function About() {
     return (
       <span
         ref={text}
-        className="w-full text-card last:text-primary text-[1.6rem] mb-6 lg:text-3xl lg:font-semibold xl:text-5xl opacity-1 transition-colors"
+        className="w-full text-card last:text-primary text-[1.6rem] mb-1.5 lg:mb-6 lg:text-3xl lg:font-semibold xl:text-5xl opacity-1 transition-colors"
       >
         {children}
       </span>
