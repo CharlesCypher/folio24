@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export default function Hero() {
   return (
     <main>
-      <section>
+      <section className="min-h-[100dvh]">
         <h1 className="text-[2.5rem] text-foreground leading-[1.15em] font-semibold mb-6">
           <span className="text-primary">Goal-Oriented Websites</span> that Deliver the Message, Easy and Fast
         </h1>
