@@ -11,7 +11,7 @@ export default function Pricing() {
         <CardContent className="p-0">
           <CardHeader>
             <p className="text-primary text-lg">Solo - One Page</p>
-            <h2 className="text-5xl font-semibold pb-2.5">$1000</h2>
+            <h2 className="text-5xl font-semibold pb-2.5">$100</h2>
             <CardDescription className="text-base pb-1.5">
               One-page website that matches your business goal and is ready to be published immediately
             </CardDescription>

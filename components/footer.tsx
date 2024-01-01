@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="px-6">
+    <footer className="bg-card px-6">
       <h2 className="relative text-foreground text-center -mt-4 pb-14">
         <span className="relative bg-clip-text bg-textgrad text-7xl font-semibold">easy/fast</span>
         <div className="absolute w-full h-14 bg-black left-0 -top-6 blur-xl z-10"></div>
