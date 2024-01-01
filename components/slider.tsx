@@ -15,7 +15,7 @@ export function Slider() {
           <CarouselContent>
             {project.images.map((image) => (
               <CarouselItem key={image.id}>
-                <Image src={image.link} alt={project.name} width={365} height={265} className="w-full h-[265px] rounded-xl" />
+                <Image src={image.link} alt={project.name} width={365} height={265} className="w-full h-[265px] object-cover rounded-xl" />
               </CarouselItem>
             ))}
           </CarouselContent>

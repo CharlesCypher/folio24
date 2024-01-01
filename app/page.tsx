@@ -1,4 +1,6 @@
 import About from "@/components/about";
+import Contact from "@/components/contact";
+import Faq from "@/components/faq";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Pricing from "@/components/pricing";
@@ -15,11 +17,13 @@ export default function Home() {
       <div className="bg-card px-6 py-7 flex flex-col gap-20 rounded-t-md">
         <Works />
       </div>
-      <div className="bg-card px-1 py-7 flex flex-col gap-20">
+      <div className="bg-card px-1 pt-7 pb-1 flex flex-col gap-20 rounded-b-md">
         <div className="bg-foreground px-6 py-7 flex flex-col gap-20 rounded-md">
           <Pricing />
+          <Contact />
         </div>
       </div>
+      <Faq />
     </div>
   );
 }

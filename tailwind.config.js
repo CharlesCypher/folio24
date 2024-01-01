@@ -54,6 +54,7 @@ module.exports = {
       },
       boxShadow: {
         shadow: "var(--shadow)",
+        box: "var(--box)",
       },
       keyframes: {
         "accordion-down": {
