@@ -4,25 +4,22 @@ import React from "react";
 import { Features } from "./features";
 import { CalendarIcon, EditIcon, FramerIcon, ImageIcon, LaptopIcon, OptionIcon, PaintbrushIcon, StickyNoteIcon, TimerIcon } from "lucide-react";
 
-// Define the type for the pricing data
-interface PricingCardData {
-  id: number;
-  name: string;
-  price: number;
-  description: string;
-  features: {
-    id: number;
-    icon: string;
-    text: string;
-  }[];
-}
-
 // Prop type for the PricingCard component
 interface PricingCardProps {
-  pricing: PricingCardData;
+  pricing: {
+    id: number;
+    name: string;
+    price: number;
+    description: string;
+    features: {
+      id: number;
+      icon: string;
+      text: string;
+    }[];
+  };
 }
 
-export const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
+export function PricingCard({ pricing }: PricingCardProps) {
   return (
     <Card className="rounded-none rounded-t-md last:rounded-t-none last:rounded-b-md lg:rounded-r-none lg:first:rounded-l-md lg:last:rounded-l-none lg:last:rounded-r-md">
       <CardContent className="p-0">
@@ -43,4 +40,4 @@ export const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
       </CardContent>
     </Card>
   );
-};
+}
