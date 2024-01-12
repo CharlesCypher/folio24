@@ -26,7 +26,7 @@ export default function About() {
 
   function AnimatedPhrase({ children }: AnimatedPhraseProps) {
     const text = useRef<HTMLSpanElement | null>(null);
-    const section = useRef<HTMLDivElement | null>(null);
+    // const section = useRef<HTMLDivElement | null>(null);
     useLayoutEffect(() => {
       gsap.registerPlugin(ScrollTrigger);
       const ctx = gsap.context(() => {

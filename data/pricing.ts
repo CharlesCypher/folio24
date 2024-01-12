@@ -14,7 +14,7 @@ const pricingCardData: PricingCardData[] = [
   {
     id: 1,
     name: "Solo - One Page",
-    price: 100,
+    price: 850,
     description: "One-page website that matches your business goal and is ready to be published immediately",
     features: [
       { id: 1, icon: "StickyNoteIcon", text: "1 page with multiple sections" },
@@ -31,7 +31,7 @@ const pricingCardData: PricingCardData[] = [
   {
     id: 2,
     name: "Yolo - Multiple Page",
-    price: 600,
+    price: 2700,
     description: "Multiple-page website that matches your business goal and is ready to be published immediately",
     features: [
       { id: 10, icon: "StickyNoteIcon", text: "Upto to 10 unique pages" },
